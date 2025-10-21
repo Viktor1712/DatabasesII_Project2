@@ -8,7 +8,7 @@ José Arrienta
 
 ---
 
-## 🔹 Guía Paso a Paso (Visual)
+## 🔹 Guía Paso a Paso
 
 Esta guía muestra cómo levantar y probar todo el proyecto desde cero, incluyendo los comandos, contenedores y resultados esperados.
 
@@ -49,5 +49,3 @@ Esta guía muestra cómo levantar y probar todo el proyecto desde cero, incluyen
 > Debido a incompatibilidades y errores de `mongo_fdw`, no fue posible realizar una integración directa. La tabla `resultados_mongo_fdw` en PostgreSQL simula la funcionalidad que tendría la conexión real. Esto permite que las pruebas, vistas y sincronizaciones funcionen sin errores y mantiene la coherencia del proyecto. Intentar usar `mongo_fdw` causaba errores de conexión y formatos de fecha incompatibles, por lo que se optó por la simulación como solución estable y funcional.
 
 ---
-
-Este README permite ejecutar y verificar **todo el flujo de integración distribuida** sin necesidad de instalaciones externas adicionales ni configuraciones complejas.  

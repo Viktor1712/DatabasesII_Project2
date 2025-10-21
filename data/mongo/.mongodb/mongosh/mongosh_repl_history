@@ -1,0 +1,4 @@
+])
+  { $group: { _id: "$apellido", total: { $sum: 1 } } }
+db.resultados_estudios.aggregate([
+use analitica_medica
